@@ -1,0 +1,13 @@
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+         String str="automation";
+
+         Set<Character> set=new HashSet<>();
+
+        for(char ch:str.toCharArray()){
+            set.add(ch);
+        }
+        System.out.print(set);
+    }
+}
